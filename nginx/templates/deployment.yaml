@@ -22,8 +22,6 @@ spec:
           - configMapRef:
               name: {{ .Values.wp.name }}-configmap
               optional: false
-          - secretRef:
-              name: {{ .Values.wp.name }}-secret
-              optional: false
+          
         ports:
         - containerPort: {{ .Values.wp.containerPorts.http }}
