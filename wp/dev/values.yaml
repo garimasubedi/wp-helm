@@ -1,9 +1,9 @@
 wp:
   name: wpapp
   labels:
-    app: wp
+    id: C0921626
+    app: wordpress
     env: dev
-    stack: wordpress
   image:
     repository: wordpress
     tag: latest
